@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c3fda6d38b7942e5b1c481328b20f6e5" Name="Diagram1" ZoomLevel="71">
+        <EntityTypeShape EntityType="BaseForPracticModel.Application" Width="1.5" PointX="10.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Cafedra" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Discipline" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Employee" Width="1.5" PointX="8.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.EnginerSpeciality" Width="1.5" PointX="6" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Exam" Width="1.5" PointX="7.5" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.ExamStudent" Width="1.5" PointX="9.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Facultet" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Post" Width="1.5" PointX="6" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Speciality" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Student" Width="1.5" PointX="7.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BaseForPracticModel.Title" Width="1.5" PointX="6" PointY="17.875" IsExpanded="true" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Application_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Application_Speciality" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Cafedra_Facultet" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Discipline_Cafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Employee_Cafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Speciality_Cafedra" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Exam_Discipline" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Employee_EnginerSpeciality" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Employee_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Employee_Title" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_ExamStudent_Exam" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_ExamStudent_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="BaseForPracticModel.FK_Student_Speciality" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
