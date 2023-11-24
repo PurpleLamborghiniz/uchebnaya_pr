@@ -1,0 +1,24 @@
+﻿<Window x:Class="PracticSemenov.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticSemenov"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="630" Width="1000" MinHeight="630" MinWidth="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="46*"/>
+            <RowDefinition Height="261*"/>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock FontSize="40" FontFamily="Yu Gothic UI Semibold" HorizontalAlignment="Center" VerticalAlignment="Center">Purplambo</TextBlock>
+        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button Width="100" Margin="5 0"  Height="35" x:Name="BackBtn" Click="BackBtn_Click" Background="HotPink">Назад</Button>
+            <Button Width="100"  Margin="15 0"  Height="35" x:Name="ExitBtn" Click="ExitBtn_Click" Background="HotPink">Выход</Button>
+        </StackPanel>
+        
+        <Frame Grid.Row="1" x:Name="MainFrame" NavigationUIVisibility="Hidden" ></Frame>
+    </Grid>
+</Window>
